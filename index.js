@@ -19,11 +19,7 @@ app.get("/users", (req, res) => {
   ]);
 });
 
-app.post("/user", (req, res) => {
-  const { name, location } = req.body;
 
-  res.send({ status: "User created", name, location });
-});
 
 // Listen on port 5000
 app.listen(port, () => {
