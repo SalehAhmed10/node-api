@@ -1,12 +1,32 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const importData = require('./data.json');
-const port = process.env.PORT || 3001;
 
+const port = 5000;
 
+// Body parser
+app.use(express.urlencoded({ extended: false }));
 
-app.get("/" , (req, res) => {
-    res.json(importData);
+// Home route
+app.get("/", (req, res) => {
+  res.send("Welcome to a basic express App");
 });
 
-app.listen(port, () => console.log(`Example app listening on port http://localhost:${port}`));
+// Mock API
+app.get("/users", (req, res) => {
+  res.json([
+    { name: "William", location: "Abu Dhabi" },
+    { name: "Chris", location: "Vegas" }
+  ]);
+});
+
+app.post("/user", (req, res) => {
+  const { name, location } = req.body;
+
+  res.send({ status: "User created", name, location });
+});
+
+// Listen on port 5000
+app.listen(port, () => {
+  console.log(`Server is booming on port 5000
+Visit http://localhost:5000`);
+});

@@ -1,20 +1,17 @@
 {
-  "name": "api",
+  "name": "now-express",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [],
+  "author": "William Imoh",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.1",
-    "save": "^2.5.0"
-  }, 
-
-  "engines": {
-    "node": "16.15.1"
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
   }
 }
