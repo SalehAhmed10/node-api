@@ -1,58 +1,65 @@
-
-
 [
-    {
-      "id": 0,
-      "name": "Food.Json",
-      "web": "https://foodjson.herokuapp.com/",
-      "thumbnail": "https://i.imgur.com/nZQpkvQ.png",
-      "desc": "Food Recipe App",
-      "madewith": "React",
-      "repo": "https://github.com/SalehAhmed10/Food.Json"
-    },
-    {
-      "id": 1,
-      "name": "random Profile Generator",
-      "web": "https://profilegenerator.vercel.app/",
-      "thumbnail": "https://i.imgur.com/PvKzfd3.png",
-      "desc": "Random User Profile Generator App",
-      "madewith": "React",
-      "repo": "https://github.com/SalehAhmed10/random-profile-generator"
-    },
-    {
-      "id": 2,
-      "name": "Countries-db",
-      "web": "https://react-countries-db.vercel.app/",
-      "thumbnail": "https://i.imgur.com/HOM5qsO.png",
-      "desc": "Countries Data App",
-      "madewith": "React",
-      "repo": "https://github.com/SalehAhmed10/countries-db"
-    },
-    {
-      "id": 3,
-      "name": "upstorm",
-      "web": "https://upstorm.herokuapp.com/",
-      "thumbnail": "https://i.imgur.com/7tXkGbV.png",
-      "desc": "Weather App",
-      "madewith": "JavaScript",
-      "repo": "https://github.com/SalehAhmed10/upstorm"
-    },
-    {
-      "id": 4,
-      "name": "covid 19 Tracker",
-      "web": "http://covid9teen.herokuapp.com/",
-      "thumbnail": "https://i.imgur.com/U3Ta3qc.png",
-      "desc": "Covid 19 Tracker App",
-      "madewith": "PHP",
-      "repo": "https://github.com/SalehAhmed10/covid9teen"
-    },
-    {
-      "id": 5,
-      "name": "Anime Quotes Generator",
-      "web": "https://animequotes.herokuapp.com/",
-      "thumbnail": "https://i.imgur.com/SPjytd4.png",
-      "desc": "Generate Anime Quotes",
-      "madewith": "JavaScript",
-      "repo": "https://github.com/SalehAhmed10/animequotes"
-    }
-  ]
+  {
+    "id": 0,
+    "name": "Food.Json",
+    "web": "https://foodjson.vercel.app/",
+    "thumbnail": "https://i.imgur.com/nZQpkvQ.png",
+    "desc": "Food Recipe App",
+    "madewith": "React",
+    "repo": "https://github.com/SalehAhmed10/Food.Json"
+  },
+  {
+    "id": 1,
+    "name": "random Profile Generator",
+    "web": "https://profilegenerator.vercel.app/",
+    "thumbnail": "https://i.imgur.com/PvKzfd3.png",
+    "desc": "Random User Profile Generator App",
+    "madewith": "React",
+    "repo": "https://github.com/SalehAhmed10/random-profile-generator"
+  },
+  {
+    "id": 2,
+    "name": "Countries-db",
+    "web": "https://react-countries-db.vercel.app/",
+    "thumbnail": "https://i.imgur.com/HOM5qsO.png",
+    "desc": "Countries Data App",
+    "madewith": "React",
+    "repo": "https://github.com/SalehAhmed10/countries-db"
+  },
+  {
+    "id": 3,
+    "name": "upstorm",
+    "web": "https://upstorm.herokuapp.com/",
+    "thumbnail": "https://i.imgur.com/7tXkGbV.png",
+    "desc": "Weather App",
+    "madewith": "JavaScript",
+    "repo": "https://github.com/SalehAhmed10/upstorm"
+  },
+  {
+    "id": 4,
+    "name": "covid 19 Tracker",
+    "web": "https://covid9teen.vercel.app/",
+    "thumbnail": "https://i.imgur.com/U3Ta3qc.png",
+    "desc": "Covid 19 Tracker App",
+    "madewith": "PHP",
+    "repo": "https://github.com/SalehAhmed10/covid9teen"
+  },
+  {
+    "id": 5,
+    "name": "Anime Quotes Generator",
+    "web": "https://animequotes.herokuapp.com/",
+    "thumbnail": "https://i.imgur.com/SPjytd4.png",
+    "desc": "Generate Anime Quotes",
+    "madewith": "JavaScript",
+    "repo": "https://github.com/SalehAhmed10/animequotes"
+  },
+  {
+    "id": 6,
+    "name": "Moviedb",
+    "web": "https://movies-db-saleh.vercel.app/",
+    "thumbnail": "https://i.imgur.com/9oSUnjF.png",
+    "desc": "Moviedb",
+    "madewith": "React",
+    "repo": "https://github.com/SalehAhmed10/animequotes"
+  }
+]

@@ -1,8 +1,10 @@
 const express = require("express");
 const app = express();
-const importData = require('./data.json');
+const importData = require("./data.json");
 
 const port = 5000;
+const cors = require("cors");
+app.use(cors());
 
 // Body parser
 app.use(express.urlencoded({ extended: false }));
@@ -12,12 +14,10 @@ app.use(express.urlencoded({ extended: false }));
 //   res.send("Welcome to a basic express App");
 // });
 
-app.get("/" , (req, res) => {
-    res.json(importData);
+app.get("/", (req, res) => {
+  res.json(importData);
+  res.set("Access-Control-Allow-Origin", "*");
 });
-
-
-
 
 // Listen on port 5000
 app.listen(port, () => {
