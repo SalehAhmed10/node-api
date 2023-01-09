@@ -29,7 +29,7 @@
   {
     "id": 3,
     "name": "upstorm",
-    "web": "https://upstorm.herokuapp.com/",
+    "web": "https://animequotes-app.vercel.app/",
     "thumbnail": "https://i.imgur.com/7tXkGbV.png",
     "desc": "Weather App",
     "madewith": "JavaScript",
