@@ -29,7 +29,7 @@
   {
     "id": 3,
     "name": "upstorm",
-    "web": "https://upstorms.vercel.app/",
+    "web": "https://animequotes-app.vercel.app/",
     "thumbnail": "https://i.imgur.com/7tXkGbV.png",
     "desc": "Weather App",
     "madewith": "JavaScript",
@@ -47,7 +47,7 @@
   {
     "id": 5,
     "name": "Anime Quotes Generator",
-    "web": "https://animequotes-app.vercel.app/",
+    "web": "https://animequotes.herokuapp.com/",
     "thumbnail": "https://i.imgur.com/SPjytd4.png",
     "desc": "Generate Anime Quotes",
     "madewith": "JavaScript",
